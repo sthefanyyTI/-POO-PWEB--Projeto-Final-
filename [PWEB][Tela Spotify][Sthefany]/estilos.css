@@ -1,0 +1,277 @@
+body{
+    background-color: #000000;
+}
+
+.inscricaoEntrada{
+    background-color: #222020;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 70px;
+    border-radius: 10px 10px 0 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.botao1{
+    display: flex;
+    gap: 10px;
+}
+
+.sinalMenor, .sinalMaior{
+    background-color: #000000;
+    color: rgb(207, 198, 198);
+
+    padding: 5px;
+    height: 35px;
+    width: 35px;
+
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.inscrever{
+    background-color: #222020;
+
+    
+    color: #b3b3b3;
+    transition: color 0.3s;
+
+    /*color: #ffffff;*/
+    border: none;
+    cursor: pointer;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.inscrever:hover{
+    color: #fff;
+}
+
+.entrar{
+    background-color: #ffffff;
+    color: #000000;
+
+    border-radius: 30px;
+    border: none;
+
+    padding: 15px 30px;
+    cursor: pointer;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+.conteudo{
+    background-color: #333232;
+    padding: 16px;
+}
+
+.artistas, .albuns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular{
+    color: #ffffff;
+    font-size: 24px;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.tudo{
+    background-color: #333232;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+.cantores, .albuns1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*margin-top: 20px;*/
+}
+
+.cad-cantores, .cad-albuns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.imagemCantor{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 9px;
+    gap: 5px;
+}
+
+.imagemMusica{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 9px;
+}
+
+a{ /*Para tirar o sublinhado do link*/
+    text-decoration: none;
+}
+
+.nomes{
+    color: #ffffff;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.artista{
+    color: #b3b3b3;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    cursor: pointer;
+}
+
+/*-------------------------------LATERAL----------------------------------------------*/
+
+body{
+    background-color: #000000;
+    color: #dbdbdb;
+}
+
+.logo-pequena{
+    width: 100px;
+}
+
+.icone{
+    width: 24px;
+}
+
+.menu-esquerdo{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-principal{
+    background-color: #191414;
+
+    color: #b3b3b3;
+    transition: color 0.3s;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+
+    border-radius: 12px 12px 12px 12px;
+
+    cursor: pointer;
+}
+
+.menu-principal:hover{
+    color: #fff;
+}
+
+.menu-secundario{
+    background-color: #191414;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+
+    border-radius: 12px 12px 12px 12px;
+}
+
+.biblioteca{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.sua-biblioteca{
+    color: #b3b3b3;
+    transition: color 0.3s;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.sua-biblioteca:hover{
+    color: #fff;
+}
+
+.menu-playlist{
+    background-color: #333232;
+
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 12px;
+}
+
+a{
+    text-decoration: none; /* tira o sublinhado */
+    color: #dbdbdb;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap; /* os elementos filhos se organizam em mais de 1 linha */
+}
+
+.idioma-port{
+    background-color: #191414;
+    color: #ffffff; /*ou #white*/
+    border-radius: 16px 16px 16px 16px;
+    border: solid 1px #dbdbdb;
+    padding: 8px 16px;
+
+    cursor: pointer;
+
+    /*display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center; para a fotooooo*/
+}
+
+.cria-playlist{
+    border-radius: 16px 16px 16px 16px;
+    border: solid 1px #dbdbdb;
+    padding: 8px 16px;
+
+    cursor: pointer;
+}
