@@ -1,0 +1,231 @@
+.body1{
+    background-color: #13343b;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.logomarca{
+    display: flex;
+    flex-direction: row;
+
+    max-width: 200px;
+
+    animation: pulse 3s;
+}
+
+input{
+    background-color: #0b1f23;
+    color: #e39b73;
+
+    font-size: 28px;
+    padding: 8px;
+
+    border: none;
+    border-radius: 15px;
+}
+
+input[type="file"]{
+    background-color: #0b1f23;
+    color: #e39b73;
+
+    font-size: 12px;
+    padding: 8px;
+
+    border: none;
+    border-radius: 15px;
+}
+
+input::file-selector-button{
+    background-color: #143940;
+    color: #e39b73;
+
+    padding: 8px;
+
+    border: none;
+    border-radius: 15px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1); 
+    }
+    50% {
+        transform: scale(1.3); 
+    }
+    100% {
+        transform: scale(1); 
+    }
+}
+
+/*----------SEGUNDA TELA(email, nome, senha e botão)-----------*/
+.body2{
+    background-color: #13343b;
+}
+
+.logoCor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.email, .nome, .senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    padding: 3px;
+
+    color: #e39b73;
+
+    font-family: "Mirza", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.cadastrar1{
+    align-self: center;
+    background-color: #e39b73;
+    color: #13343b;
+
+    margin-top: 20px;
+    
+    padding: 32px;
+    padding-top: 26px;
+    padding-bottom: 16px;
+    
+    border-radius: 12px;
+    border: none;
+
+    cursor: pointer;
+
+    font-family: "Mirza", serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/*----------TERCEIRA TELA(foto, descrição, valor e botão)-----------*/
+.oculto{
+    display: none;
+}
+
+.formulario{ /* generico */
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    gap: 5px;
+    
+    color: #e39b73;
+
+    font-family: "Mirza", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.imgTitulo{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+
+.foto, .descricao, .valor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 80px;
+
+    color: #e39b73;
+
+    font-family: "Mirza", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.cadastrar2{ 
+    align-self: center;
+    background-color: #e39b73;
+    color: #13343b;
+
+    margin-top: 20px;
+    
+    padding: 32px;
+    padding-top: 26px;
+    padding-bottom: 16px;
+    
+    border-radius: 12px;
+    border: none;
+
+    cursor: pointer;
+
+    font-family: "Mirza", serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/*----------QUARTA TELA(foto, descrição e valor do perfume aparecem na tela)-----------*/
+#containerCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+    padding: 20px;   
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px ;
+    padding: 10px;
+    width: 120px;
+}
+
+.descPerfume{
+    display: flex;
+    margin-top: 15px;
+    color: #e39b73;
+
+    font-family: "Mirza", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.valorPerfume{
+    display:flex;
+    color: #e39b73;
+
+    font-family: "Mirza", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.imgCard{
+    width: 120px;
+    height: 120px;
+}
